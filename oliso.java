@@ -65,6 +65,6 @@ public class oliso {
         System.out.println("Oliso ascending alignment found? " + winnerAscending);
 
         boolean winnerDescending = validateRowsOliso(board_2);
-        System.out.println("Oliso ascending alignment found? " + winnerDescending);
+        System.out.println("Oliso ascending descending found? " + winnerDescending);
     }
 }
