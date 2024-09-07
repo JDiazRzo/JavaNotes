@@ -10,7 +10,10 @@ public class contador {
 
         for (int i=0; i <userphrase.length(); i ++) {
             char c = userphrase.charAt(i);
-            switch (c) {
+            switch (c) { /*
+                The value of the expression is compared with the values of each case.
+                If there is a match, the associated block of code is executed.
+                */
                 case 'a':
                     countA++;
                     break;
